@@ -99,6 +99,25 @@ This system automates resume screening using NLP to:
 8. Top candidates are displayed to recruiter  
 
 ---
+## 📈 Model Techniques Used
+
+- TF-IDF Vectorization  
+- Cosine Similarity  
+- Word Embeddings (optional upgrade)  
+- Text Preprocessing (NLTK / spaCy)  
+
+---
+
+## 🚀 Future Improvements
+
+- 🔥 Replace TF-IDF with BERT / Sentence Transformers for better semantic understanding  
+- 🌐 Deploy using Streamlit Cloud / AWS / GCP  
+- 📊 Add recruiter analytics dashboard  
+- 🤖 AI-based skill gap recommendations  
+- 📄 LinkedIn profile parsing support  
+- 🔐 Add authentication system for HR login  
+- ⚡ Real-time resume ranking API  
+
 
 ## 🛠️ Installation
 
@@ -124,16 +143,4 @@ pip install -r requirements.txt
 
 # Run Streamlit app
 streamlit run app.py
-Model Techniques Used
-TF-IDF Vectorization
-Cosine Similarity
-Word Embeddings (optional upgrade)
-Text Preprocessing (NLTK / spaCy)
-🚀 Future Improvements
-🔥 Replace TF-IDF with BERT / Sentence Transformers
-🌐 Deploy using Streamlit Cloud / AWS / GCP
-📊 Add recruiter analytics dashboard
-🤖 AI-based skill gap recommendations
-📄 LinkedIn profile parsing support
-🔐 Add authentication system for HR login
-📡 Real-time resume ranking API
+
